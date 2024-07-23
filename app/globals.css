@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message-ia {
+  p, li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #101820;
+  }
+
+  iframe {
+    margin-top: 8px;
+  }
+
+  ol, ul {
+    list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+    padding-left: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

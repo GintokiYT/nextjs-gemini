@@ -1,0 +1,13 @@
+.text-area-chat:has(textarea:focus) {
+  border-color: #0375F8;
+}
+
+/* Cambiar el color del scroll */
+.text-area::-webkit-scrollbar {
+  width: 5px ;
+  background-color: #E6EAEF;
+}
+
+.text-area::-webkit-scrollbar-thumb {
+  background-color: #0375F8;
+}
