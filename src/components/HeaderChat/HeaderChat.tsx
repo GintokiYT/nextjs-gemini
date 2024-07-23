@@ -2,6 +2,7 @@ import IconTimeCircle from "../Icons/IconTimeCircle";
 import IconCloseCenter from "../Icons/IconCloseCenter";
 
 export default function HeaderChat() {
+  // Comentario
   return (
     <div className="w-full h-12 bg-white px-4 border-b border-[#E6EAEF] flex-shrink-0">
       <div className="w-full h-full flex items-center justify-between">
